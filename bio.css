@@ -65,41 +65,31 @@ h1 {
     text-align: center;
     display: flex;
     color: rgba(255, 255, 255, 0.8);
-    font-size: 45px;
+    font-size: 65px;
     margin: 0 auto;
 }
 
-.img-div {
-    max-width: 49%;
-    display: grid;
-    right: 0px;
-    align-items: right;
-    grid-column: 2
-}
 
 img {
-    padding: 10% 5% 10% 5%;
-    display: grid;
+    padding: 1% 5% 1% 5%;
+    max-width: 45%;
 }
 
 
 
 .bio-section {
     display: flex;
-    max-width: 49%;
-    padding: 10% 5% 10% 5%;
+    padding: 1% 5% 1% 5%;
     color:rgba(255, 255, 255, 0.8);
-    left: 0px;
-    margin: 0 20px 0 20px;
     justify-content: space-evenly;
     flex: 1;
+    align-items: center;
 }
 
-.bio-div {
-    color:rgba(255, 255, 255, 0.6);
+p {
+    padding: 5% 6% 5% 6%;
+    font-size: 25px;
 }
-
-
 
 
 
