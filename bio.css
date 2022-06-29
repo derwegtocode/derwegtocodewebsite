@@ -96,4 +96,20 @@ p {
     height: 50px;
 }
 
+#skills-section {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+    align-items: center;
+    padding: 5px 70px;
+}
 
+.icon {
+    max-width: 20em;
+}
+
+
+final-div {
+    height: 20rem;
+    background-color: rgba(255, 255, 255, 0)
+}
