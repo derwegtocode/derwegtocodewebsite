@@ -17,12 +17,6 @@ img {
     position: fixed;
 }
 
-.img-credit {
-    position: relative;
-    display: block;
-    bottom: 0px;
-    font-size: 8px;
-}
 
 nav {
     background-color: rgba(0, 0, 0, 0);
@@ -41,7 +35,7 @@ a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
     padding: 1px 0px 1px 3px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     transition: color 0.3s ease;
 }
 
