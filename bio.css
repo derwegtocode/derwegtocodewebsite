@@ -11,56 +11,6 @@ body {
     padding: 0px;
 }
 
-.bio-section {
-    display: inline-grid;
-    grid-template-columns: 2 auto;
-
-}
-
-.img-div {
-    max-width: 49%;
-    display: grid;
-    right: 0px;
-    align-items: right;
-    grid-column: 2
-}
-
-img {
-    padding: 10% 5% 10% 5%;
-    display: grid;
-    max-width: 500px;
-}
-
-.section-title-div {
-    width: 100%;
-    padding: 2%;
-    display: flex;
-    position: relative;
-    align-items: center;
-}
-
-h1 {
-    text-align: center;
-    display: flex;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 45px;
-    margin: 0 auto;
-}
-
-.bio-div-main {
-    display: grid;
-    max-width: 49%;
-    padding: 10% 5% 10% 5%;
-    color:rgba(255, 255, 255, 0.8);
-    left: 0px;
-    margin: 0 20px 0 20px;
-}
-
-p {
-    color:rgba(255, 255, 255, 0.6);
-}
-
-
 nav {
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -103,8 +53,53 @@ ul li {
     }
 }
 
-.truths-div {
+.section-title-div {
+    width: 100%;
+    padding: 2%;
     display: flex;
-    align-items: column;
-    flex-flow: column-wrap;
+    position: relative;
+    align-items: center;
 }
+
+h1 {
+    text-align: center;
+    display: flex;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 45px;
+    margin: 0 auto;
+}
+
+.img-div {
+    max-width: 49%;
+    display: grid;
+    right: 0px;
+    align-items: right;
+    grid-column: 2
+}
+
+img {
+    padding: 10% 5% 10% 5%;
+    display: grid;
+}
+
+
+
+.bio-section {
+    display: flex;
+    max-width: 49%;
+    padding: 10% 5% 10% 5%;
+    color:rgba(255, 255, 255, 0.8);
+    left: 0px;
+    margin: 0 20px 0 20px;
+    justify-content: space-evenly;
+    flex: 1;
+}
+
+.bio-div {
+    color:rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+
