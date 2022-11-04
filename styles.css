@@ -233,6 +233,11 @@ a.youtube-channels {
     max-width: 5em;
 }
 
+.cv-div {
+    display: none;
+    flex-direction: column;
+}
+
 @media (max-width: 1200px) {
     .small-img, .big-img{
         display: none;
