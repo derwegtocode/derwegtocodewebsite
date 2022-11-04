@@ -4,28 +4,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="projects.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <title>Der Weg To Code - Projects</title>
 </head>
 <body>
-    <nav id="nav-bar">
-        <ul>
-           <li><a class="nav-link" href="./index.html">Main </a></li>
-           <li><a class="nav-link" href="bio.html">Bio </a></li>
-           <li><a class="nav-link" href="./resources.html">Resources </a></li>
-           <li><a class="nav-link" href="contact.html">Contact </a></li>
-        <ul/>
-   </nav></header>
-    <div class="section-title-div"><h1 class="section-title">Projects</h1></div>
-    <div id="imageDiv">
-        <img src="lukasz-szmigiel-jFCViYFYcus-unsplash.jpg" alt="A path in the woods">
-        <div id="projectsDiv">
-            <div class="projects"></div>
+    <nav class="navbar">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a class="nav-link" href="index.html">Main </a></li>
+                <li><a class="nav-link" href="about.html">About </a></li>
+                <li><a class="nav-link" href="resources.html">Resources </a></li>
+                <li><a class="nav-link" href="contact.html">Contact </a></li>
+            </ul>
         </div>
+    </nav>
+    <div class="section-title-div"><h1 class="section-title">Projects</h1></div>
+    <div class="img-div">
+        <img src="./imagenes/lukasz-szmigiel-jFCViYFYcus-unsplash.jpg" class="big-img" alt="A path in the woods">
+        
+    <div class="projects-div">
+
+        <div class="projects">
+            <a href="https://dastreffen.onrender.com/" target="_blank">
+                <img src="./previews/dastreffen.jpg" class="preview-img" alt="Das Treffen preview">
+                <div class="preview-title"><h2>Das Treffen</h2></div>
+                <div class="preview-text"><p>Used for this project: Ruby, Ruby on Rails (devise, forms, associations), PostgreSQL, Bootstrap, website deployment.</p></div>
+            </a>
+        </div>
+
+        <!-- <div class="projects">
+            <a href="https://members-only-u2ng.onrender.com" target="_blank">
+                <img src="./previews/dastreffen.jpg" class="preview-img" alt="Sealed Lips preview">
+                <div class="preview-title"><h2>Sealed Lips</h2></div>
+                <div class="preview-text"><p>Used for this project: Ruby, Ruby on Rails (devise, forms, associations), SQLite, Bootstrap, website deployment.</p></div>
+            </a>
+        </div> -->
+        
+        <div class="projects">
+            <a href="https://derwegtocode.github.io/rock-paper-scissors/" target="_blank">
+                <img src="./previews/rockpaperscissors.jpg" class="preview-img" alt="Rock-Paper-Scissors preview">
+                <div class="preview-title"><h2>Rock Paper Scissors</h2></div>
+                <div class="preview-text"><p>Used for this project: HTML, CSS, Javascript, DOM manipulation.</p></div>
+            </a>
+        </div>
+
+        <div class="projects">
+            <a href="https://derwegtocode.github.io/etch-a-sketch/" target="_blank">
+                <img src="./previews/etchasketch.jpg" class="preview-img" alt="Etch-A-Sketch preview">
+                <div class="preview-title"><h2>Etch-A-Sketch</h2></div>
+                <div class="preview-text"><p>Used for this project: HTML, CSS, Javascript, DOM manipulation.</p></div>
+            </a>
+        </div>
+
+        <div class="projects">
+            <a href="https://derwegtocode.github.io/calculator/" target="_blank">
+                <img src="./previews/calculator.jpg" class="preview-img" alt="Calculator preview">
+                <div class="preview-title"><h2>Calculator</h2></div>
+                <div class="preview-text"><p>Used for this project: HTML, CSS, Javascript, DOM manipulation.</p></div>
+            </a>
+        </div>
+
+
     </div>
-    
+
+    </div> 
+    </br>
+    </br>
+    <footer><p>Der Weg To Code - 2022</p></footer>    
 </body>
 </html>

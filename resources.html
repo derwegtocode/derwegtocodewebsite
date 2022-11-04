@@ -4,29 +4,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./resources.css">    
+    <link rel="stylesheet" type="text/css" href="styles.css">    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
     <title>Der Weg To Code - Resources</title>
 </head>
 <body>
-    <nav id="nav-bar">
-        <ul>
-           <li><a class="nav-link" href="./index.html">Main </a></li>
-           <li><a class="nav-link" href="./bio.html">Bio </a></li>
-           <li><a class="nav-link" href="projects.html">Projects </a></li>
-           <li><a class="nav-link" href="contact.html">Contact </a></li>
-        <ul/>
-   </nav></header>
-    <div class="section-title-div"><h1 class="section-title">Resources</h1></div>
-    <div class="desciption-div"><p class="description">Here you will find some resources that I used
+    <nav class="navbar">
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a class="nav-link" href="index.html">Main </a></li>
+                <li><a class="nav-link" href="about.html">About </a></li>
+                <li><a class="nav-link" href="projects.html">Projects </a></li>
+                <li><a class="nav-link" href="contact.html">Contact </a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="section-title-div"><h1 class="section-title">Resources</h1>
+    <div class="container">
+        <p class="text">Here you will find some resources that I used
         to learn and get better at programming. </br>
-        All of them are 100% free.</p></div>
-        <section class="resources">
-            <img src="matthew-moisant-sIPRbIj9Oo8-unsplash.jpg" alt="matthew moisant">
+        All of them are 100% free.</p>
+    </div>
+    </div>
+        <div class="container">
+            <img src="./imagenes/matthew-moisant-sIPRbIj9Oo8-unsplash.jpg" class="small-img" alt="matthew moisant">
             <div class="resources-div">
-                <h2 class="websites-title">websites</h2>
+                <h1 class="section-title">websites</h2>
                 <div class="websites">
                     <a class="link-to" href="https://www.theodinproject.com/" target="_blank">
                         <img class="logo" src="./logos/the-odin-project-logo.png" alt="the odin project logo">
@@ -35,18 +46,20 @@
                         <img class="logo" src="./logos/FreeCodeCamp_logo.png" alt="freecodecamp logo">
                     </a>
                 </div>
-                <h2 class="youtube-title">youtube channels</h2>
+                <h1 class="section-title">youtube channels</h2>
                 <div class="youtube">
                     <ul class="youtube-channels">
-                        <div class="account-box"><li class="youtube-channels"><a class="coder-coder youtube-channels" href="https://www.youtube.com/c/TheCoderCoder" target="_blank">Coder Coder</a></li></div>
-                        <div class="account-box"><li class="youtube-channels"><a class="webdev-simplified youtube-channels" href="https://www.youtube.com/c/WebDevSimplified" target="_blank">Web Dev Simplified</a></li></div>
-                        <div class="account-box"><li class="youtube-channels"><a class="wes-boss youtube-channels" href="https://www.youtube.com/c/WesBos" target="_blank">Wes Bos</a></li></div>
-                        <div class="account-box"><li class="youtube-channels"><a class="hola-mundo youtube-channels" href="https://www.youtube.com/c/HolaMundoDev" target="_blank">Hola Mundo</a></li></div>
-                        <div class="account-box"><li class="youtube-channels"><a class="techworld-with-nana youtube-channels" href="https://www.youtube.com/c/TechWorldwithNana" target="_blank">TechWorld </br>with Nana</a></li></div>
+                        <li><div class="account-box"><a class="coder-coder youtube-channels" href="https://www.youtube.com/c/TheCoderCoder" target="_blank">Coder Coder</a></div></li>
+                        <li><div class="account-box"><a class="webdev-simplified youtube-channels" href="https://www.youtube.com/c/WebDevSimplified" target="_blank">Web Dev Simplified</a></div></li>
+                        <li><div class="account-box"><a class="wes-boss youtube-channels" href="https://www.youtube.com/c/WesBos" target="_blank">Wes Bos</a></div></li>
+                        <li><div class="account-box"><a class="hola-mundo youtube-channels" href="https://www.youtube.com/c/HolaMundoDev" target="_blank">Hola Mundo</a></div></li>
+                        <li><div class="account-box"><a class="techworld-with-nana youtube-channels" href="https://www.youtube.com/c/TechWorldwithNana" target="_blank">TechWorld </br>with Nana</a></div></li>
                     </ul>
                 </div>
             </div>    
-        </section>
-    
+        </div>
+    </br>
+    </br>
+    <footer><p>Der Weg To Code - 2022</p></footer>    
 </body>
 </html>
