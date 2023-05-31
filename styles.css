@@ -177,6 +177,10 @@ a.youtube-channels {
     flex-shrink: 1;
 }
 
+.youtube-channels {
+    align-items: center;
+}
+
 .big-img {
     max-width: 100%;
 } 
